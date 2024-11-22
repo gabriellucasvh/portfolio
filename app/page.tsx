@@ -1,13 +1,9 @@
-import Navbar from '@/components/Navbar';
-import ToggleThemeButton from '@/components/ToggleThemeButton';
-import WithLoader from '@/components/WithLoader';
+import Inicio from "@/components/Sections/Inicio";
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-center w-full min-h-screen font-geistSans select-none">
-        <WithLoader>
-        <Navbar />
-        <ToggleThemeButton />
-        </WithLoader>
+    <div className="font-geistSans bg-neutral-950">
+      <Inicio />
     </div>
   );
 }
