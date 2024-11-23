@@ -11,7 +11,9 @@ export default {
   	extend: {
   		fontFamily: {
   			caveat: ['var(--font-caveat)'],
-  			geistSans: ['var(--font-geist-sans)']
+  			geistSans: ['var(--font-geist-sans)'],
+			lora: ['var(--font-lora)'],
+			matesc: ['var(--font-mate-sc)']
   		},
   		colors: {
   			background: 'hsl(var(--background))',
@@ -76,11 +78,20 @@ export default {
   				to: {
   					transform: 'translateY(calc(-100% - var(--gap)))'
   				}
+  			},
+  			'shiny-text': {
+  				'0%, 90%, 100%': {
+  					'background-position': 'calc(-100% - var(--shiny-width)) 0'
+  				},
+  				'30%, 60%': {
+  					'background-position': 'calc(100% + var(--shiny-width)) 0'
+  				}
   			}
   		},
   		animation: {
   			marquee: 'marquee var(--duration) infinite linear',
-  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+  			'shiny-text': 'shiny-text 8s infinite'
   		}
   	}
   },
