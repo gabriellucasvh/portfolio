@@ -10,11 +10,11 @@ const Sobre = () => {
         Apaixonado por Desenvolvimento e Inovação
       </span>
       </div>
-      <div className='flex'>
+      <div className='flex flex-col md:flex-row items-center w-full'>
         {/* Sobre */}
         <div className="flex flex-col items-center md:items-start w-full md:w-3/4 lg:w-1/2 mt-5 font-extralight text-base md:text-lg md:border-r border-white/5 px-4 md:px-6 py-4">
           <p className="indent-5 text-justify hyphens-auto" style={{ wordSpacing: '-2px' }}>
-            Olá, meu nome é Gabriel! Sou estudante de Análise e Desenvolvimento de Sistemas com foco em front-end. Estou sempre em busca de soluções criativas e eficientes para oferecer experiências digitais memoráveis. Tenho como objetivo me tornar um desenvolvedor excelente, combinando técnicas modernas e boas práticas do setor.
+            Olá, meu nome é <span><span className="underline underline-offset-2 decoration-orange-500">Gabriel</span></span>! Sou estudante de Análise e Desenvolvimento de Sistemas com foco em front-end. Estou sempre em busca de soluções criativas e eficientes para oferecer experiências digitais memoráveis. Tenho como objetivo me tornar um desenvolvedor excelente, combinando técnicas modernas e boas práticas do setor.
           </p>
           <p className="indent-5 text-justify mt-4 hyphens-auto " style={{ wordSpacing: '-2px' }}>
             Atualmente, sou fundador da Prysmus, uma iniciativa voltada para a criação de landing pages, SEO e marketing digital. Minhas habilidades incluem o uso de Next.js, Tailwind CSS e estratégias para otimização de sites, sempre priorizando um design responsivo, acessível e otimizado para motores de busca.
@@ -23,7 +23,7 @@ const Sobre = () => {
             Sou movido pelo aprendizado constante, acreditando que o crescimento profissional vem do equilíbrio entre prática, conhecimento e inovação.
           </p>
           <p className="indent-5 text-justify mt-4 hyphens-auto" style={{ wordSpacing: '-2px' }}>
-            Caso queira saber mais sobre meu trabalho, entre em contato! Estou sempre aberto a novos desafios. 🚀
+            Caso queira saber mais sobre meu trabalho, entre em contato! Estou sempre aberto a novos desafios.
           </p>
         </div>
         {/* Serviços */}

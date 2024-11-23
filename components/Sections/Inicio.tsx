@@ -3,7 +3,6 @@ import GradualSpacing from '../ui/gradual-spacing';
 import Image from 'next/image';
 import Clock from '../Clock';
 import { Dot } from 'lucide-react';
-import AnimatedShinyText from '../ui/animated-shiny-text';
 
 const Inicio = () => {
   return (
@@ -38,9 +37,9 @@ const Inicio = () => {
 
       <div className="w-full flex md:flex-row items-center justify-center md:justify-start">
         <Clock />
-        <span className="flex items-center text-green-500 mt-4 md:mt-0">
+        <span className="flex items-center text-green-400 mt-4 md:mt-0">
           <Dot />
-          Disponível
+          Disponível para trabalho
         </span>
       </div>
     </div>
