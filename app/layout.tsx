@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lora.variable} antialiased bg-zinc-950 flex flex-col items-center justify-center text-white p-4`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lora.variable} antialiased bg-zinc-950 flex flex-col items-center justify-center text-white px-4`}
       >
         {children}
       </body>
