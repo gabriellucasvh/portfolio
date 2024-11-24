@@ -1,4 +1,4 @@
-import { CalendarClock, Flame, Handshake, Palette, ShieldCheck } from 'lucide-react';
+import { CalendarClock, Flame, Palette, ShieldCheck } from 'lucide-react';
 import React from 'react';
 
 const Sobre = () => {
