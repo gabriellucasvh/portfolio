@@ -6,7 +6,7 @@ import React from 'react';
 
 const Contato = () => {
   return (
-    <div className="flex flex-col items-start w-full px-6 md:px-16 py-8 select-none">
+    <div className="flex flex-col items-start w-full px-6 md:px-16 py-8 select-none" id='contato'>
       <h1 className="text-3xl md:text-4xl font-semibold">Contato</h1>
       <span className="text-lg md:text-xl text-zinc-400 font-lora mt-2">
         Vamos trabalhar juntos?

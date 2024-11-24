@@ -3,7 +3,7 @@ import React from 'react';
 
 const Sobre = () => {
   return (
-    <div className="flex flex-col items-center w-full px-4 md:px-16 py-8 select-none">
+    <div className="flex flex-col items-center w-full px-4 md:px-16 py-8 select-none" id='sobre'>
       <div className='w-full'>
       <h1 className="text-3xl md:text-4xl font-semibold">Sobre mim</h1>
       <span className="text-lg md:text-xl text-zinc-400 font-lora mt-2">

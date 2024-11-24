@@ -40,7 +40,7 @@ const ProjetosItems = [
 
 const Projetos = () => {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen px-4 md:px-16 py-8">
+    <div className="flex flex-col items-center w-full min-h-screen px-4 md:px-16 py-8" id='projetos'>
       <div className='w-full'>
       <h1 className="text-3xl md:text-4xl font-semibold">Projetos</h1>
       <span className="text-lg md:text-xl text-zinc-400 font-lora mt-2">

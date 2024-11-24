@@ -10,10 +10,8 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
-  			caveat: ['var(--font-caveat)'],
   			geistSans: ['var(--font-geist-sans)'],
 			lora: ['var(--font-lora)'],
-			matesc: ['var(--font-mate-sc)']
   		},
   		colors: {
   			background: 'hsl(var(--background))',

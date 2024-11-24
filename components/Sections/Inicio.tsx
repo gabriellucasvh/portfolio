@@ -6,7 +6,7 @@ import { Dot } from 'lucide-react';
 
 const Inicio = () => {
   return (
-    <div className="flex flex-col items-center md:items-start w-full min-h-screen select-none px-4 md:px-16 py-8 md:py-16 mt-5">
+    <div className="flex flex-col items-center md:items-start w-full min-h-screen select-none px-4 md:px-16 py-8 md:py-16 mt-5" id='#menu'>
       <div className="relative flex flex-col items-center md:items-start justify-center space-y-3">
         <Image
           src="/gabriel.jpg"
