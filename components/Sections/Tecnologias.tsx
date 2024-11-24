@@ -23,11 +23,11 @@ const Tecnologias = () => {
           Aqui estão algumas tecnologias que utilizo
         </span>
       </div>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 mt-10 w-full">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 mt-10 w-full md:border border-white/5 md:p-10">
         {tecnologias.map((tec, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center text-center border border-zinc-700 rounded-lg p-4 hover:scale-105 transition-transform"
+            className="flex flex-col items-center justify-center text-center border border-white/10 rounded-lg p-4 hover:scale-105 transition-transform"
           >
             <Image src={tec.src} alt={tec.alt} width={40} height={40} />
             <span className="mt-2 text-sm md:text-base font-medium">{tec.name}</span>
