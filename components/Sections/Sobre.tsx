@@ -11,7 +11,7 @@ const Sobre = () => {
       </div>
       <div className='flex flex-col md:flex-row items-center w-full'>
         {/* Sobre */}
-        <div className="flex flex-col items-center md:items-start w-full md:w-3/4 lg:w-1/2 mt-5 font-extralight text-base md:text-lg md:border-r dark:border-gray-700 px-4 md:px-6 py-4">
+        <div className="flex flex-col items-center md:items-start w-full md:w-3/4 lg:w-1/2 mt-5 font-extralight text-base md:text-lg px-4 md:px-6 py-4">
           <p className="indent-5 text-justify hyphens-auto" style={{ wordSpacing: '-2px' }}>
             Olá, meu nome é Gabriel! Sou estudante de Análise e Desenvolvimento de Sistemas com foco em front-end. Estou sempre em busca de soluções criativas e eficientes para oferecer experiências digitais memoráveis. Tenho como objetivo me tornar um desenvolvedor excelente, combinando técnicas modernas e boas práticas do setor.
           </p>
