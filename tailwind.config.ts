@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
-  darkMode: ['selector', 'class'], // Ativa o suporte ao modo escuro
+  darkMode: 'class', // Ativa o suporte ao modo escuro
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",

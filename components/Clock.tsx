@@ -21,7 +21,7 @@ const Clock = () => {
 
   return (
     <div className="hidden md:flex justify-center items-center">
-      <p className="text-lg font-mono text-white">
+      <p className="text-lg font-mono text-neutral-950 dark:text-white">
         {time}
         </p>
     </div>

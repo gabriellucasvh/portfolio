@@ -1,7 +1,6 @@
 import { Github, SquareArrowOutUpRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 
 const ProjetosItems = [
   {
@@ -40,22 +39,18 @@ const ProjetosItems = [
 
 const Projetos = () => {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen px-4 md:px-16 py-8" id='projetos'>
+    <section className="flex flex-col items-center w-full min-h-screen px-4 md:px-16 py-8" id='projetos'>
       <div className='w-full'>
-      <h1 className="text-3xl md:text-4xl font-semibold">Projetos</h1>
-      <span className="text-lg md:text-xl text-zinc-400 font-lora mt-2">
-        Selecionei alguns projetos que fiz
-      </span>
+        <h1 className="text-3xl md:text-4xl font-semibold">Projetos</h1>
+        <span className="text-lg md:text-xl text-zinc-400 font-lora mt-2">
+          Selecionei alguns projetos que fiz
+        </span>
       </div>
-      <div className="w-full mt-8 space-y-12 md:border md:p-10 md:border-white/5">
+      <div className="w-full mt-8 space-y-12 md:border md:p-10 md:dark:border-gray-700">
         {ProjetosItems.map((item, index) => (
-          <div
-            key={index}
-            className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8"
-          >
-            {/* Conteúdo à esquerda */}
+          <div key={index} className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
             <div className="flex flex-col max-w-full md:max-w-xl text-center md:text-left">
-              <h1 className="text-2xl font-semibold select-none border-b border-white/5">
+              <h1 className="text-2xl font-semibold select-none border-b dark:border-gray-700">
                 {item.title}
                 <div>
                   {item.link.type === "website" && (
@@ -63,6 +58,7 @@ const Projetos = () => {
                       href={item.link.url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="Acessar Website"
                       className="mt-4 inline-flex items-center gap-1 text-blue-600 font-light text-base hover:text-blue-500 transition-colors duration-300"
                     >
                       Acessar Website
@@ -74,6 +70,7 @@ const Projetos = () => {
                       href={item.link.url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="Acessar Github"
                       className="mt-4 inline-flex items-center gap-1 text-blue-600 font-light text-base hover:text-blue-500 transition-colors duration-300"
                     >
                       Acessar Github
@@ -87,22 +84,18 @@ const Projetos = () => {
               </span>
               <div className="flex flex-wrap justify-center md:justify-start gap-2 mt-4 select-none">
                 {item.tecs.map((tec, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1 bg-zinc-800 rounded-sm text-xs"
-                  >
+                  <span key={idx} className="px-3 py-1 text-white bg-neutral-700 dark:bg-zinc-800 rounded-sm text-xs">
                     {tec}
                   </span>
                 ))}
               </div>
             </div>
-            {/* Imagem à direita */}
             {item.img && (
               <div className="w-full md:w-auto flex-shrink-0 md:mr-10 flex items-center justify-center">
                 <Image
                   src={item.img}
                   alt={item.title}
-                  className="rounded-lg hover:scale-105 transition-transform"
+                  className="rounded-lg hover:scale-105 transition-transform shadow-lg shadow-black/30"
                   width={400}
                   height={400}
                 />
@@ -111,7 +104,7 @@ const Projetos = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
