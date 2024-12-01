@@ -8,6 +8,7 @@ Bem-vindo ao meu portfólio! Aqui você encontrará uma mostra do meu trabalho c
 - **Next.js**
 - **TypeScript**
 - **Tailwind CSS**
+- **Shadcn UI**
 
 ## Contato
 
