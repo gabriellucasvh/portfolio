@@ -28,12 +28,12 @@ const ProjetosItems = [
     link: { type: "github", url: "https://github.com/gabriellucasvh/discord-bot" },
   },
   {
-    title: "ToDo",
+    title: "Planner Master",
     description:
-      "Uma ToDoList que oferece uma solução simples e eficaz para o gerenciamento de tarefas, com interface intuitiva e sincronização em tempo real.",
-    img: "/projetos/todoList.png",
-    tecs: ["React"],
-    link: { type: "github", url: "https://github.com/gabriellucasvh/to-do" },
+      "Um gerenciador de tarefas simples e eficaz, com interface intuitiva e suporte ao salvamento local para manter suas tarefas sempre acessíveis",
+    img: "/projetos/plannermaster.png",
+    tecs: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI"],
+    link: { type: "website", url: "http://plannermaster.vercel.app" },
   },
 ];
 
