@@ -15,9 +15,6 @@ const Sobre = () => {
           <p className="indent-5 text-justify hyphens-auto" style={{ wordSpacing: '-2px' }}>
             Olá, meu nome é Gabriel! Sou estudante de Análise e Desenvolvimento de Sistemas com foco em front-end. Estou sempre em busca de soluções criativas e eficientes para oferecer experiências digitais memoráveis. Tenho como objetivo me tornar um desenvolvedor excelente, combinando técnicas modernas e boas práticas do setor.
           </p>
-          <p className="indent-5 text-justify mt-4 hyphens-auto " style={{ wordSpacing: '-2px' }}>
-            Atualmente, sou fundador da Prysmus, uma iniciativa voltada para a criação de landing pages, SEO e marketing digital. Minhas habilidades incluem o uso de Next.js, Tailwind CSS e estratégias para otimização de sites, sempre priorizando um design responsivo, acessível e otimizado para motores de busca.
-          </p>
           <p className="indent-5 text-justify mt-4 hyphens-auto" style={{ wordSpacing: '-2px' }}>
             Sou movido pelo aprendizado constante, acreditando que o crescimento profissional vem do equilíbrio entre prática, conhecimento e inovação.
           </p>
