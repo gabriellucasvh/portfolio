@@ -1,4 +1,4 @@
-import { CalendarClock, Flame, Palette, ShieldCheck } from 'lucide-react';
+import { Flame, Palette, ShieldCheck } from 'lucide-react';
 
 const Sobre = () => {
   return (
@@ -34,6 +34,7 @@ const Sobre = () => {
               Produzo um código limpo, bem documentado e modular, que é fácil de manter e escalar. Testes automatizados e depuração rigorosa garantem a estabilidade e funcionalidade.
             </p>
           </div>
+          <div className=''></div>
           <div className='flex flex-col items-center md:items-start border-x dark:border-gray-700 px-4 md:px-6 py-4'>
             <h2 className='text-xl font-semibold flex items-center gap-2'><Palette className='text-orange-600' />  Design e Experiência do Usuário</h2>
             <p className='text-center mt-2 md:text-start'>
