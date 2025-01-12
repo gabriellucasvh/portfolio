@@ -27,7 +27,7 @@ const Inicio = () => {
           text="Gabriel Gonçalves"
         />
         <GradualSpacing
-          className="text-center md:text-start text-orange-600 dark:text-orange-500 text-lg md:text-xl font-bold -tracking-widest"
+          className="text-center md:text-start text-orange-600 dark:text-orange-500 text-lg md:text-xl -tracking-widest"
           text="Front-end Developer"
         />
       </div>
