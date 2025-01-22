@@ -19,10 +19,6 @@ const Inicio = () => {
           height={120}
         />
         <GradualSpacing
-          className="text-center md:text-start text-xl font-bold -tracking-widest mt-5"
-          text="Olá, me chamo"
-        />
-        <GradualSpacing
           className="text-center md:text-start text-3xl md:text-5xl font-bold -tracking-widest"
           text="Gabriel Gonçalves"
         />
