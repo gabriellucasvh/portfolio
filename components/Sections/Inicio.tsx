@@ -20,7 +20,7 @@ const Inicio = () => {
         />
         <GradualSpacing
           className="text-center md:text-start text-xl font-bold -tracking-widest mt-5"
-          text="Hello, I'm"
+          text="Olá, me chamo"
         />
         <GradualSpacing
           className="text-center md:text-start text-3xl md:text-5xl font-bold -tracking-widest"
@@ -28,7 +28,7 @@ const Inicio = () => {
         />
         <GradualSpacing
           className="text-center md:text-start text-orange-600 dark:text-orange-500 text-lg md:text-xl -tracking-widest"
-          text="Front-end Developer"
+          text="Desenvolvedor Front-end"
         />
       </div>
 
