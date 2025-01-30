@@ -1,13 +1,13 @@
-import React from 'react';
 import GradualSpacing from '../ui/gradual-spacing';
 import Image from 'next/image';
 import Clock from '../Clock';
 import { Dot } from 'lucide-react';
+import ShinyText from '../ShinyText';
 
 const Inicio = () => {
   return (
     <div
-      className="flex flex-col items-center md:items-start w-full min-h-screen select-none px-4 md:px-16 py-8 md:py-16 mt-5"
+      className="flex flex-col items-center md:items-start w-full min-h-screen  px-4 md:px-16 py-8 md:py-16 mt-5"
       id="#menu"
     >
       <div className="relative flex flex-col items-center md:items-start justify-center space-y-3 ">
@@ -44,7 +44,7 @@ const Inicio = () => {
         <Clock />
         <span className="flex items-center text-green-500 dark:text-green-400 mt-4 md:mt-0">
           <Dot />
-          Disponível para trabalho
+          <ShinyText text="Disponível para trabalho" className='text-green-500 dark:text-green-400' speed={1} />
         </span>
       </div>
     </div>

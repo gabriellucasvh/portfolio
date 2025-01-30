@@ -50,7 +50,7 @@ const Projetos = () => {
         {ProjetosItems.map((item, index) => (
           <div key={index} className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
             <div className="flex flex-col max-w-full md:max-w-xl text-center md:text-left">
-              <h1 className="text-2xl font-semibold select-none border-b dark:border-gray-700">
+              <h1 className="text-2xl font-semibold  border-b dark:border-gray-700">
                 {item.title}
                 <div>
                   {item.link.type === "website" && (
@@ -79,10 +79,10 @@ const Projetos = () => {
                   )}
                 </div>
               </h1>
-              <span className="text-zinc-400 mt-4 font-lora select-none">
+              <span className="text-zinc-400 mt-4 font-lora ">
                 {item.description}
               </span>
-              <div className="flex flex-wrap justify-center md:justify-start gap-2 mt-4 select-none">
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 mt-4 ">
                 {item.tecs.map((tec, idx) => (
                   <span key={idx} className="px-3 py-1 text-white bg-neutral-700 dark:bg-zinc-800 rounded-sm text-xs">
                     {tec}

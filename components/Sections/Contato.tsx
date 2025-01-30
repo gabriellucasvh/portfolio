@@ -2,12 +2,11 @@
 
 import { BookUser, Github, Linkedin, Mail, MessageCircle } from 'lucide-react';
 import Link from 'next/link';
-import React from 'react';
 
 const Contato = () => {
   return (
     <div
-      className="flex flex-col items-start w-full px-6 md:px-16 py-8 select-none"
+      className="flex flex-col items-start w-full px-6 md:px-16 py-8 "
       id="contato"
     >
       <h1 className="text-3xl md:text-4xl font-semibold">Contato</h1>

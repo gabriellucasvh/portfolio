@@ -15,7 +15,7 @@ const tecnologias = [
 
 const Tecnologias = () => {
   return (
-    <section className="flex flex-col items-center w-full px-6 md:px-16 py-8 select-none" id='tecnologias'>
+    <section className="flex flex-col items-center w-full px-6 md:px-16 py-8 " id='tecnologias'>
       <div className='w-full'>
         <h1 className="text-3xl md:text-4xl font-semibold">Tecnologias</h1>
         <span className="text-lg md:text-xl text-zinc-400 font-lora mt-2">
