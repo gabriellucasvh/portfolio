@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Clock from '../Clock';
 import { Dot } from 'lucide-react';
 import ShinyText from '../ShinyText';
+import TrueFocus from '../TrueFocus';
 
 const Inicio = () => {
   return (
@@ -22,10 +23,15 @@ const Inicio = () => {
           className="text-center md:text-start text-3xl md:text-5xl font-bold -tracking-widest"
           text="Gabriel Gonçalves"
         />
-        <GradualSpacing
-          className="text-center md:text-start text-orange-600 dark:text-orange-500 text-lg md:text-xl -tracking-widest"
-          text="Desenvolvedor Front-end"
-        />
+          <TrueFocus
+            sentence="Desenvolvedor Front-end"
+            manualMode={false}
+            blurAmount={2}
+            borderColor="rgb(249 115 22)"
+            animationDuration={1}
+            pauseBetweenAnimations={1}
+            glowColor="rgb(249 115 22)"
+          />
       </div>
 
       <div className="flex flex-col md:flex-row items-center md:items-start w-full mt-8 md:mb-2 space-y-6 md:space-y-0">
