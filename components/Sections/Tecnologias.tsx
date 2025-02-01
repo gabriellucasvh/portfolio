@@ -14,7 +14,7 @@ const tecnologias = [
   { src: '/tecnologias/nodejs.svg', alt: 'Node.js', name: 'Node.js' },
   { src: '/tecnologias/figma.svg', alt: 'Figma', name: 'Figma' },
   { src: '/tecnologias/postman.svg', alt: 'Postman', name: 'Postman' },
-  { src: '/tecnologias/insomnia.svg', alt: 'Insomnia', name: 'Insomnia' },
+  { src: '/tecnologias/Insomnia.svg', alt: 'Insomnia', name: 'Insomnia' },
 ];
 
 const Tecnologias = () => {
