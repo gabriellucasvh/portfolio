@@ -5,12 +5,16 @@ const tecnologias = [
   { src: '/tecnologias/typescript.svg', alt: 'Typescript', name: 'Typescript' },
   { src: '/tecnologias/react.svg', alt: 'React', name: 'React' },
   { src: '/tecnologias/html5.svg', alt: 'HTML', name: 'HTML5' },
+  { src: '/tecnologias/css3.svg', alt: 'CSS', name: 'CSS3' },
   { src: '/tecnologias/git.svg', alt: 'Git', name: 'Git' },
   { src: '/tecnologias/github-dark.svg', alt: 'GitHub', name: 'GitHub' },
   { src: '/tecnologias/nextjs_icon_dark.svg', alt: 'Next.js', name: 'Next.js' },
   { src: '/tecnologias/tailwindcss.svg', alt: 'Tailwind CSS', name: 'Tailwind CSS' },
   { src: '/tecnologias/vue.svg', alt: 'Vue.js', name: 'Vue.js' },
   { src: '/tecnologias/nodejs.svg', alt: 'Node.js', name: 'Node.js' },
+  { src: '/tecnologias/figma.svg', alt: 'Figma', name: 'Figma' },
+  { src: '/tecnologias/postman.svg', alt: 'Postman', name: 'Postman' },
+  { src: '/tecnologias/insomnia.svg', alt: 'Insomnia', name: 'Insomnia' },
 ];
 
 const Tecnologias = () => {
