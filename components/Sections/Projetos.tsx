@@ -1,8 +1,40 @@
-import { Github, SquareArrowOutUpRight } from 'lucide-react';
+import { BadgePlus, Blocks, CircleFadingPlus, Github, Rotate3D, SquareArrowOutUpRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const ProjetosItems = [
+  {
+    title: "Bionk",
+    description:
+      "Bionk é uma plataforma Link in Bio moderna e personalizável, desenvolvida com Next.js 15, Tailwind CSS e Prisma. O projeto permite que usuários criem e personalizem suas próprias páginas de links, facilitando o compartilhamento de conteúdo online.",
+    img: "/projetos/bionk.png",
+    tecs: [
+      "Next.js 15",
+      "React 19",
+      "Tailwind CSS",
+      "Prisma (PostgreSQL)",
+      "NextAuth.js",
+      "Framer Motion",
+      "DND Kit",
+      "Radix UI",
+      "Recharts",
+      "Zod"
+    ],
+    link: {
+      type: "github",
+      url: "https://github.com/gabriellucasvh/bionk"
+    },
+    status: "em-construcao"
+  },
+  {
+    title: "Raph CLI",
+    description:
+      "Raph CLI é uma ferramenta de linha de comando para gerar projetos Next.js 14 com App Router, suporte a TypeScript, Tailwind CSS v4, tRPC, Prisma, NextAuth, ESLint ou Biome. Ideal para projetos modernos e escaláveis com configuração inicial automatizada.",
+    img: "/projetos/raph.png",
+    tecs: ["Node.js", "Next.js", "TypeScript", "Tailwind CSS", "Framer-Motion"],
+    link: { type: "website", url: "https://raph1.vercel.app" },
+    status: "novo",
+  },
   {
     title: "Prysmus",
     description:
@@ -50,35 +82,47 @@ const Projetos = () => {
         {ProjetosItems.map((item, index) => (
           <div key={index} className="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
             <div className="flex flex-col max-w-full md:max-w-xl text-center md:text-left">
-              <h1 className="text-2xl font-semibold  border-b dark:border-gray-700">
+              <h1 className="text-2xl font-semibold border-b dark:border-gray-700 pb-2 flex items-center gap-3">
                 {item.title}
-                <div>
-                  {item.link.type === "website" && (
-                    <Link
-                      href={item.link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Acessar Website"
-                      className="mt-4 inline-flex items-center gap-1 text-blue-600 font-light text-base hover:text-blue-500 transition-colors duration-300"
-                    >
-                      Acessar Website
-                      <SquareArrowOutUpRight className="w-4 h-4" />
-                    </Link>
-                  )}
-                  {item.link.type === "github" && (
-                    <Link
-                      href={item.link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Acessar Github"
-                      className="mt-4 inline-flex items-center gap-1 text-blue-600 font-light text-base hover:text-blue-500 transition-colors duration-300"
-                    >
-                      Acessar Github
-                      <Github className="w-4 h-4" />
-                    </Link>
-                  )}
-                </div>
+
+                {item.status === "novo" && (
+                  <span className="flex items-center gap-1 animate-bounce bg-green-600 shadow-md shadow-green-800 border text-white text-xs font-semibold px-2 py-1 rounded-full uppercase">
+                    <Rotate3D className='animate-spin' size={16} /> Novo
+                  </span>
+                )}
+                {item.status === "em-construcao" && (
+                  <span className="flex items-center gap-1 animate-pulse bg-orange-500 shadow-md shadow-orange-800 border border-orange-600 text-white text-xs font-semibold px-2 py-1 rounded-full uppercase cursor-progress">
+                    <Blocks size={16} /> Em construção
+                  </span>
+                )}
               </h1>
+
+              <div>
+                {item.link.type === "website" && (
+                  <Link
+                    href={item.link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Acessar Website"
+                    className="mt-4 inline-flex items-center gap-1 text-blue-600 font-light text-base hover:text-blue-500 transition-colors duration-300"
+                  >
+                    Acessar Website
+                    <SquareArrowOutUpRight className="w-4 h-4" />
+                  </Link>
+                )}
+                {item.link.type === "github" && (
+                  <Link
+                    href={item.link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Acessar Github"
+                    className="mt-4 inline-flex items-center gap-1 text-blue-600 font-light text-base hover:text-blue-500 transition-colors duration-300"
+                  >
+                    Acessar Github
+                    <Github className="w-4 h-4" />
+                  </Link>
+                )}
+              </div>
               <span className="text-zinc-400 mt-4 font-lora ">
                 {item.description}
               </span>
