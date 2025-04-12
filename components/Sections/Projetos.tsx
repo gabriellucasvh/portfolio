@@ -86,12 +86,12 @@ const Projetos = () => {
                 {item.title}
 
                 {item.status === "novo" && (
-                  <span className="flex items-center gap-1 animate-bounce bg-green-600 shadow-md shadow-green-800 border text-white text-xs font-semibold px-2 py-1 rounded-full uppercase">
+                  <span className="flex items-center gap-1 animate-bounce bg-green-600 sark:shadow-md shadow-green-800 border text-white text-xs font-semibold px-2 py-1 rounded-full uppercase">
                     <Rotate3D className='animate-spin' size={16} /> Novo
                   </span>
                 )}
                 {item.status === "em-construcao" && (
-                  <span className="flex items-center gap-1 animate-pulse bg-orange-500 shadow-md shadow-orange-800 border border-orange-600 text-white text-xs font-semibold px-2 py-1 rounded-full uppercase cursor-progress">
+                  <span className="flex items-center gap-1 animate-pulse bg-orange-500 dark:shadow-md shadow-orange-800 border border-orange-600 text-white text-xs font-semibold px-2 py-1 rounded-full uppercase cursor-progress">
                     <Blocks size={16} /> Em construção
                   </span>
                 )}
@@ -123,7 +123,7 @@ const Projetos = () => {
                   </Link>
                 )}
               </div>
-              <span className="text-zinc-400 mt-4 font-lora ">
+              <span className="dark:text-zinc-400 mt-4 font-lora ">
                 {item.description}
               </span>
               <div className="flex flex-wrap justify-center md:justify-start gap-2 mt-4 ">

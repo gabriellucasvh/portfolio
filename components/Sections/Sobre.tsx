@@ -28,14 +28,14 @@ const Sobre = () => {
               Minha proficiência em HTML, CSS, JavaScript e frameworks como React e Vue.js garante soluções eficazes e adaptáveis para qualquer desafio de desenvolvimento Front-end.
             </p>
           </div>
-          <div className='h-px w-full bg-gray-700'></div>
+          <div className='h-px w-full bg-gray-300 dark:bg-gray-700'></div>
           <div className='flex flex-col items-center md:items-start md:border-x dark:border-gray-700 px-4 md:px-6 py-4'>
             <h2 className='text-xl font-semibold flex items-center gap-2'><ShieldCheck className='text-orange-600' />  Qualidade do Código</h2>
             <p className='text-center hyphens-auto mt-2 md:text-start'>
               Produzo um código limpo, bem documentado e modular, que é fácil de manter e escalar. Testes automatizados e depuração rigorosa garantem a estabilidade e funcionalidade.
             </p>
           </div>
-          <div className='h-px w-full bg-gray-700'></div>
+          <div className='h-px w-full bg-gray-300 dark:bg-gray-700'></div>
           <div className='flex flex-col items-center md:items-start md:border-x dark:border-gray-700 px-4 md:px-6 py-4'>
             <h2 className='text-xl font-semibold flex items-center gap-2'><Palette className='text-orange-600' />  Design e Experiência do Usuário</h2>
             <p className='text-center hyphens-auto mt-2 md:text-start'>
