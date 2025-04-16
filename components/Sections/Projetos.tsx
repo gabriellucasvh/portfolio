@@ -1,4 +1,4 @@
-import { BadgePlus, Blocks, CircleFadingPlus, Github, Rotate3D, SquareArrowOutUpRight } from 'lucide-react';
+import { Blocks, Github, Rotate3D, SquareArrowOutUpRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
