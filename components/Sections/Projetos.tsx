@@ -29,7 +29,7 @@ const ProjetosItems = [
   {
     title: "Raph CLI",
     description:
-      "Raph CLI é uma ferramenta de linha de comando para gerar projetos Next.js 14 com App Router, suporte a TypeScript, Tailwind CSS v4, tRPC, Prisma, NextAuth, ESLint ou Biome. Ideal para projetos modernos e escaláveis com configuração inicial automatizada.",
+      "Raph CLI é uma ferramenta de linha de comando para gerar projetos Next.js 15 com App Router, suporte a TypeScript, Tailwind CSS v4, tRPC, Prisma, NextAuth, ESLint ou Biome. Ideal para projetos modernos e escaláveis com configuração inicial automatizada.",
     img: "/projetos/raph.png",
     tecs: ["Node.js", "Next.js", "TypeScript", "Tailwind CSS", "Framer-Motion"],
     link: { type: "website", url: "https://raph1.vercel.app" },
