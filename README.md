@@ -1,6 +1,6 @@
 # Portfólio
 
-Bem-vindo ao meu portfólio! Aqui você encontrará uma mostra do meu trabalho como desenvolvedor front-end.
+Bem-vindo ao meu portfólio! Aqui você encontrará uma mostra do meu trabalho como desenvolvedor full-stack.
 🚀 [Acesse por aqui :)](https://gabriellucasvh.vercel.app/) 🚀
 
 ## Tecnologias utilizadas neste projeto

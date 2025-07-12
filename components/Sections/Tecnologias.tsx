@@ -15,6 +15,9 @@ const tecnologias = [
   { src: '/tecnologias/figma.svg', alt: 'Figma', name: 'Figma' },
   { src: '/tecnologias/postman.svg', alt: 'Postman', name: 'Postman' },
   { src: '/tecnologias/Insomnia.svg', alt: 'Insomnia', name: 'Insomnia' },
+  { src: '/tecnologias/postgresql.svg', alt: 'PostgreSQL', name: 'PostgreSQL' },
+  { src: '/tecnologias/docker.svg', alt: 'Docker', name: 'Docker' },
+  { src: '/tecnologias/neon.svg', alt: 'Neon', name: 'Neon' },
 ];
 
 const Tecnologias = () => {
@@ -27,9 +30,9 @@ const Tecnologias = () => {
         </span>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 mt-10 w-full md:border dark:border-gray-700 md:p-10">
-        {tecnologias.map((tec, index) => (
+        {tecnologias.map((tec) => (
           <div
-            key={index}
+            key={tec.name}
             className="flex flex-col items-center justify-center text-center border border-gray-300 dark:border-gray-700 rounded-lg p-4 hover:scale-105 transition-transform shadow-sm shadow-black/5"
           >
             <Image src={tec.src} alt={tec.alt} width={40} height={40} />
