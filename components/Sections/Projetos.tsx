@@ -41,7 +41,7 @@ const ProjetosItems = [
       "Prysmus é uma iniciativa focada na criação de landing pages, otimização de SEO e marketing digital. Ajudamos empresas a obter maior visibilidade online através de soluções personalizadas que promovem o crescimento orgânico e eficaz nas plataformas digitais.",
     img: "/projetos/prysmusS.png",
     tecs: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    link: { type: "website", url: "https://www.prysmus.com" },
+    link: { type: "website", url: "https://prysmus-systems.vercel.app" },
   },
   {
     title: "Chat Online",
