@@ -19,7 +19,7 @@ const Sobre = () => {
 						className="indent-5 text-justify hyphens-auto"
 						style={{ wordSpacing: "-1.4px" }}
 					>
-						Olá, meu nome é Gabriel! Sou estudante de Análise e Desenvolvimento
+						Olá, meu nome é Gabriel! Sou graduado em Análise e Desenvolvimento
 						de Sistemas com foco em desenvolvimento full-stack. Estou sempre em
 						busca de soluções criativas e eficientes, unindo interface e
 						estrutura para entregar experiências digitais completas e
